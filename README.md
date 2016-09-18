@@ -29,7 +29,7 @@ http://lab.mrscholty.com/mynotes
 
 ## Running the app
 
-1. switch to mynotes directory `cd myNotes`
+1. switch to mynotes directory `cd mynotes`
 2. install the dependencies `npm install` (see package.json)
 
 ### create dev build and run server
