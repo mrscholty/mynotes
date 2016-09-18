@@ -1,0 +1,5 @@
+node_modules
+build-production
+build-production/bundle.js
+.DS_Store
+.idea
