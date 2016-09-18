@@ -14,12 +14,12 @@ http://lab.mrscholty.com/mynotes
 
 ##Screenshots
 <div>
-<img width="500" src="https://raw.githubusercontent.com/scholty/mynotes/master/assets/screen-add.png" border="0" />
-<img width="500" src="https://raw.githubusercontent.com/scholty/mynotes/master/assets/screen-list.png" border="0" />
+<img width="500" src="https://raw.githubusercontent.com/mrscholty/mynotes/master/assets/screen-add.png" border="0" />
+<img width="500" src="https://raw.githubusercontent.com/mrscholty/mynotes/master/assets/screen-list.png" border="0" />
 </div>
 <div>
-<img width="500" src="https://raw.githubusercontent.com/scholty/mynotes/master/assets/screen-search.png" border="0" />
-<img width="500" src="https://raw.githubusercontent.com/scholty/mynotes/master/assets/screen-update.png" border="0" />
+<img width="500" src="https://raw.githubusercontent.com/mrscholty/mynotes/master/assets/screen-search.png" border="0" />
+<img width="500" src="https://raw.githubusercontent.com/mrscholty/mynotes/master/assets/screen-update.png" border="0" />
 </div>
 
 ##Tech-Stack
