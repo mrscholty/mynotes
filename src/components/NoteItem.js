@@ -8,9 +8,7 @@ class NoteItem extends Component {
         super(props);
         this.state = {
             editMode: this.props.editMode,
-            noteText: this.props.note.text,
-            noteCreated: this.props.note.created,
-            noteModified: this.props.note.modified
+            noteText: this.props.note.text
         }
     }
 
@@ -54,8 +52,6 @@ class NoteItem extends Component {
 
     render() {
 
-        console.log('Render NoteItem');
-
         let output = null;
 
         if (this.state.editMode) {
@@ -75,8 +71,8 @@ class NoteItem extends Component {
                                 onClick={()=> this.removeNote()}>Remove</Button>
                         &nbsp;&nbsp;
                         <br/><br/>
-                        <div className="noteInfo">created: { Moment(this.state.noteCreated).fromNow() }</div>
-                        <div className="noteInfo">modified: { Moment(this.state.noteModified).fromNow() }</div>
+                        <div className="noteInfo">created: { Moment(this.props.note.created).fromNow() }</div>
+                        <div className="noteInfo">modified: { Moment(this.props.note.modified).fromNow() }</div>
 
                     </div>
                 </div>
